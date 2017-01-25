@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
+  gem "listen"
+  gem "wdm" if Gem.win_platform?
 end
 
 
